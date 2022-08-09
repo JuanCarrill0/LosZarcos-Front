@@ -1,0 +1,27 @@
+.boxProduct{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.boxProduct img{
+    width: 30%;
+}
+
+.Products{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    background-color:#021689 ;
+    padding: 10px;
+    border-radius: 16px;
+
+}
+
+.price{
+    color: #02A6AF;
+}

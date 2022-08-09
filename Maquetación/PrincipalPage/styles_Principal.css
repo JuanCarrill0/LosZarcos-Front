@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+    
+}
+
+/* Navs Principales*/
+.navFirst{
+    border: solid black 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ulNavPrincipal{
+    display: flex;
+    position: relative;
+    top: 7px;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.ulNavCategorias{
+    display: none;
+    z-index: 1;
+    position: relative;
+    top: 70px;
+    right: 160px;
+    background-color: white;
+    width: 250px;
+}
+
+.ulNavCategorias-Farmacia,
+.ulNavCategorias-Cuidado,
+.ulNavCategorias-Salud,
+.ulNavCategorias-Bebé{
+    display: none;
+    width: 300px;
+    position:absolute;
+    background-color: white;
+    left: 250px;
+}
+.ulNavCategorias-Farmacia{
+    top: -1px;
+}
+
+.ulNavCategorias-Salud{ 
+    top: 22px;
+}
+
+.ulNavCategorias-Cuidado{  
+    top: 48px;
+}
+
+.ulNavCategorias-Bebé{ 
+    top: 74px;
+}
+.listNav{
+    list-style: none;
+    color: white;
+}
+
+.listNavCategorias{
+    list-style: none;
+    border-bottom: solid black 1px;
+    color: black;
+}
+
+li:hover{
+    border-bottom: solid white 3px;
+}
+
+.navSecond{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #293785;
+    height: 35px;
+}
+
+.title{
+    color: #021689;
+    margin: 20px;
+    text-align: center;
+}
+
+.titleRed{
+    color: #CF152D;
+    text-align: center;
+
+}
+
+.Carousel{
+    display: flex;
+    align-items: center;
+}
+
+/* Boostrap Slide Productos */
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+
+  /* Servicios */
+
+  .services{
+    position: relative;
+    left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(234, 234, 234);
+  }
+
+   /* Mas visitadas */
+
+   .mostVisited{
+    position:relative;
+    left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+   }   
+   
+   .boxVisited img{
+    background-color: rgba(0,0,0,0.8);
+    background-image:url(http://www.gelfuzion.com/img/slides/nivo/bg-1.jpg);
+    filter:brightness(0.4)
+   }
+
+   .titleVisited{
+    z-index: 1;
+    width: 50%;
+    color: white;
+    font-size: 22px;
+    position: relative;
+    top: 120px;
+    text-align:end;
+    
+   }
+
+   .LogosEmpresas{
+    position: relative;
+    top: 30px;
+   }
+
+   /* iNFO */
+
+   .info{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    top: 80px;
+   }
+
+
+

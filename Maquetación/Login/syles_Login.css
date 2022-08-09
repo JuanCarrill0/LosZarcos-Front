@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+.title, .subtitle{
+    color:#07227B ;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.title{
+    font-size: 36px;
+    margin: 30px;
+    font-weight: 900;
+
+}
+
+
+.input{
+    padding: 10px;
+    width: 100%;
+}
+
+.topBox{
+    background-color: #07227B;
+    height: 80px;
+    width: 100%;
+}
+.textFooter{
+    text-align: center;
+}
+
+.logIn{
+    display: flex;
+    position: relative;
+    top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    position: relative;
+    left: 30%;
+    padding: 10px;
+    width: 150px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.title{
+    text-align: center;
+}
